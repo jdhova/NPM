@@ -1,0 +1,349 @@
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 50px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+
+}
+
+.top-left {
+	display: flex;
+	justify-content: space-between;
+	align-items: center; 
+	margin-right: 15px;
+	margin-left: 15px;
+
+}
+
+
+.top-links {
+  display:inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 10px 0 0;
+
+}
+
+.top-links li {
+  display: inline-block;
+  margin-top: 0px;
+  float: right;
+  padding: 5px;
+  font-size: .875rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+  flex-grow: 1;
+  display: block;
+
+}
+
+  .acronym {
+  font-size: .875rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+
+  }
+
+.iron-hack {
+	display:flex;
+	justify-content: space-between;
+	align-items: center; 
+	margin-right: 15px;
+	margin-left: 15px;
+	cursor: pointer;
+  	font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+}
+
+.top-npm {
+   margin-bottom: 10px;
+  display: inline-block;
+  float: left;
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.zuid ul {
+	list-style: none;
+	margin:  5px 10px 5px 0;
+  	font-weight: 600;
+  	box-sizing: border-box;
+  	font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+  	color: rgba(0,0,0,.7);
+
+}
+
+.zuid img {
+	margin-top: 10px;
+	display: inline-flex;
+}
+
+
+.zuid li {
+	font-family:"Fira Mono", "Andale Mono", "Consolas", monospace;
+    letter-spacing: 0px;
+    border: none;
+    padding-top: 6px;
+    padding-left: 10px;
+    width: calc(100% - 10px)
+
+}
+
+.top-npm li {
+  margin-bottom: 10px;
+  display: inline;
+  float: right;
+  padding: 10;
+  margin:  5px 10px 5px 0;
+  font-weight: 600;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+  color: rgba(0,0,0,.7);
+
+}
+
+
+.top-npm img  {
+
+display: inline;
+ float: right;
+  padding: 10;
+  color: -webkit-link;
+  cursor: pointer;
+  transform-origin: 0px 0px 0px;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+  margin-top: 10px;
+
+}
+
+.marg-low {
+margin: 30px 30px 30px 30px;
+display: inline-block;
+}
+
+
+.product {
+	padding-bottom:60px;
+	margin-top:0px;
+	background-image:url("./images/hero-cityscape.svg");
+	background-repeat: no-repeat; 
+    background-color: rgb(32, 101, 136);
+    min-height: 600px;
+}
+
+.maastricht {
+	margin-top: 0px;
+}
+
+.maastricht li,
+.maastricht h2,
+.maastricht p {
+	color:white;
+	margin-left: 100px;
+	font-family: "Open Sans", OpenSans, sans-serif;	
+	width: 50%;
+	font-weight: 400;
+	font-size: 1.25rem;
+}
+
+.maastricht h1 {
+	color: #f4f4f4;
+	margin-left: 100px;
+}
+
+.ams a {
+	color: white;
+	margin-top: 10px;
+}
+
+
+.margin-top-10 {
+  padding-top: 10px;
+}
+
+
+.product {
+	min-height: 500px;
+
+}
+
+
+ .product .sign-up {
+	background-color:rgb(240, 146, 51);
+	color: white;
+	padding:10px 90px 10px 90px;
+	margin-top: 10px;
+	border-radius:20px;
+	align-items:left;
+	float: left;
+	margin-left: 100px;
+}
+     
+
+.ams {
+	display: flex;
+	align-items:center;
+	justify-content: space-around;
+	padding-bottom:60px;
+	color: rgb(39, 53, 71);
+	background-color:rgb(39, 53, 71);
+	padding-top: 40px;
+	padding-bottom:50px;
+	min-height: 600px;
+
+}
+
+ .ams .sign-up {
+ 	background-color:rgb(203, 56, 55);
+	color: white;
+	padding:8px 100px 8px 100px;
+	margin-top: 10px;
+	border-radius:20px;
+	align-items:left;
+	float: left;
+	font-weight: 500;
+
+
+
+}
+
+.ams li,
+.ams h2,
+.ams p {
+	color:white;	
+}
+
+.ams ul {
+	list-style-type: disc;
+}
+
+.ams h2 {
+	font-size: 2.25rem;
+	font-weight: 600;
+	margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    letter-spacing: 0em;
+}
+
+
+
+.ams li, {
+	padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-size: 1.25rem;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    font-weight: 400;
+}
+
+
+.rott .install-npm {
+	background-color:rgb(49, 68, 88);
+	color: white;
+	padding:8px 20px;
+	line-height: 1.35;
+	margin-top: 10px;
+	border-radius:20px;
+	font-size: 16px;
+	align-items:left;
+	float: left;
+	touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.rott{
+	background-image:url("./images/forklift.svg");
+	padding-top: 100px;
+	padding-bottom:50px;
+	padding-left: 20px;
+	min-height: 600px;
+	display: flex;
+	align-items:left;
+	justify-content: space-around;
+
+}
+
+.rott .grix-x {
+	text-align: left;
+}
+
+.rbs {
+	text-align: left;
+	align-items:left;
+	float: left;
+}
+
+
+.rott li,
+.rott h2,
+.rott p {
+	color:white;
+	align-content:left;
+	float left;
+}
+
+.rott h2 {
+	font-weight: 600;
+	font-family: "Open Sans", OpenSans, sans-serif;
+	box-sizing: border-box;
+}
+
+.maas h1.
+.mass h2,
+.mass h3. {
+	color:rgb(83, 88, 98)
+}
+
+.maas  {  
+	background-color: white;
+	min-height: 700px;
+	padding-top: 50px;
+	min-height: 600px;
+}
+
+.maas .grid-x {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.clear-float {
+	clear: both;
+}
+
+footer img {
+	height: 56px;
+    width: 64px;
+}
+
+
+footer {
+	display: flex;
+	align-items:center;
+	justify-content: space-around;
+	background-color:rgb(39, 53, 71);
+}
+
+
+footer p {
+	font-weight: 900px solid;
+    font-family: Roboto,arial,sans-serif;
+    color:white;
+}
+
+
+

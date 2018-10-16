@@ -1,0 +1,19 @@
+display
+	block
+	inline
+	inline-block
+position
+	fixed
+	relative
+	absolute
+
+flex-box
+
+float
+	right
+	left
+	(clear)
+
+
+to center on block elements:
+	margin: 0 auto
